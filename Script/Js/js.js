@@ -24,6 +24,6 @@
 // arr.length = i;
 // console.log(arr, 'arrlength');
 
-let arr = [];
-a = 
-for(let n = a; )
+// let arr = [];
+// a = 
+// for(let n = a; )
