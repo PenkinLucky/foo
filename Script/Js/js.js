@@ -40,40 +40,40 @@
 // Найти максимальное число и минимальное число.
 // Элементы массива между min -- max записать в массив B.
 //------------------------------------------------------------------------------------------------------------------------------------------
-let a = [];
-p = prompt('длина масива');
-a.length = p;
-for(let i = 0; i < p; i++){
-    a[i] = Math.round(Math.random() * 10);
-    console.log(a, 'masiv');
-}
+// let a = [];
+// p = prompt('длина масива');
+// a.length = p;
+// for(let i = 0; i < p; i++){
+//     a[i] = Math.round(Math.random() * 10);
+//     console.log(a, 'masiv');
+// }
 
-console.log(p,'long');
-let a = [1, 2, 3, 4];
-let max = a[0];
-let min = a[0];
-for(let i = 0 ; i < a.length; i++){
-    if(a[i] > max){
-        max = a[i];
-    } 
-    else if(a[i] < min){
-        min = a[i];
-    }
-}
+// console.log(p,'long');
+// let a = [1, 2, 3, 4];
+// let max = a[0];
+// let min = a[0];
+// for(let i = 0 ; i < a.length; i++){
+//     if(a[i] > max){
+//         max = a[i];
+//     } 
+//     else if(a[i] < min){
+//         min = a[i];
+//     }
+// }
 
-save = min;
-min = max;
-max = save;
+// save = min;
+// min = max;
+// max = save;
 
-console.log(a, 'massive')
-console.log(min, 'min');
-console.log(max, 'max');
-console.log(save,'save')
-let b = [];
-for(let j=0; j<a.length; j++){
-    if((a[j] != min) && (a[j] != max)){
-        console.log(j,'j')
-        b[j] = a[j];
-    }
-}
-console.log(b,'b massive')
+// console.log(a, 'massive')
+// console.log(min, 'min');
+// console.log(max, 'max');
+// console.log(save,'save')
+// let b = [];
+// for(let j=0; j<a.length; j++){
+//     if((a[j] != min) && (a[j] != max)){
+//         console.log(j,'j')
+//         b[j] = a[j];
+//     }
+// }
+// console.log(b,'b massive')
